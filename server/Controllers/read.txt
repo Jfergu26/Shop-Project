@@ -1,0 +1,10 @@
+//@Jaryn Ferguson 3/23/2021
+
+the controller folder holds the specific express routes that interact with the database
+
+it should work as such:
+
+views/xxxx.js (UI) => server.js => controller/xxxx.js => mongodb => ??? => result
+
+//
+
