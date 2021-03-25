@@ -6,6 +6,9 @@ const app = express();
 const port = 9000;
 
 app.use(cors());
+app.post('/Login', (req,res)=>{
+    res.send(`Logged In Page....`)
+})
 app.get('/Login', (req,res)=>{
     res.send(`user not logged in`)
 })
